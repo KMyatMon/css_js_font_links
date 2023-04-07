@@ -95,6 +95,19 @@ p {
   text-decoration: underline;
 }
 
+.row {
+  margin-bottom: 50px;
+}
+
+.project-link {
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
